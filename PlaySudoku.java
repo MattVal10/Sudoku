@@ -11,7 +11,7 @@ public class PlaySudoku {
     // pre: none
     // post: creates a SudokuBoard from a file, then prints the board to the console
     public static void main(String[] args) throws Exception {
-        SudokuBoard board = new SudokuBoard("/Users/matthewvalencia/Documents/ComputerScience /Java_143_class/week3/HW1SudokuSetup/main/src/data1-1-1.sdk");
+        MySudokuBoard board = new MySudokuBoard("/Users/matthewvalencia/Documents/ComputerScience /Java_143_class/week3/HW1SudokuSetup/main/src/data1-1-1.sdk");
         System.out.println(board);
     }
 }
